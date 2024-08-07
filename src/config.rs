@@ -22,6 +22,6 @@ pub struct Args {
     pub connection_timeout: u64,
 
     /// User agent string to use in the version message.
-    #[arg(long, default_value = "/Satoshi:25.0.0/")]
+    #[arg(long, default_value = "//")]
     pub user_agent: String,
 }
